@@ -21,7 +21,7 @@ void inserAtHead(Node * &head, int d){             // insert at Head
 void insertAtTail(Node* &tail, int d){              // insert at Tail
     Node* temp = new Node(d);
     tail -> next = temp;
-    tail = tail->next;
+    tail = temp;
 
 }
 
@@ -53,6 +53,7 @@ int main()
 
      inserAtHead(head,0);
      insertAtTail(tail,5);
+     insertAtTail(tail,25);
     printLL(head);
     
 

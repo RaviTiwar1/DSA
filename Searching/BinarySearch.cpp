@@ -26,9 +26,9 @@ int Binarysearch(int arr[],int size,int x){
 
 int main()
 {
-    int even[6]={2,3,5,7,9,12};
+    int even[1]={2};
     int odd[5]={1,3,6,8,11};
-    int index = Binarysearch(even,6,3);
+    int index = Binarysearch(even,1,3);
 
     cout<<"The index of 3 is "<< index <<endl;
 
