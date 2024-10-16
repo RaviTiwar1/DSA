@@ -21,7 +21,7 @@ node *buildTree(node *root)
 
     cout << "Enter the data:" << endl;
     int data;
-    cin >> data;
+    cin >> data; 
 
     if (data == -1)
     {

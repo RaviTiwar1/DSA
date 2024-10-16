@@ -2,7 +2,7 @@
 using namespace std;
 
 
-// Sieve of Eratosthenes            ---> Love babbar ke Math wale video ko dekho
+// Sieve of Eratosthenes            ---> Love<3 babbar ke Math wale video ko dekho
 
 
 //to find number of  prime under n

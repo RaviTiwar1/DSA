@@ -3,7 +3,7 @@ using namespace std;
 
 int countPrimes(int a) {
     if (a == 1) return 2;
-    int limit = 100;
+    int limit = 1000;
     vector<int> primes;
     while (true) {                                   // loop chlta rhe jb tk 'a'th element tk prime na mile uske liye
         vector<bool> prime(limit + 1, true);
@@ -20,7 +20,7 @@ int countPrimes(int a) {
         }
 
         if (primes.size() >= a) break;                  // agar 'a' tk mil gya to wo  while (true) wala loop end kro
-        limit *= 2;                                     // Dynamically increase limit
+        limit *= 3;                                     // Dynamically increase limit
     }
 
     return primes[a-1];
