@@ -15,9 +15,9 @@ void selectSort(int arr[], int n)
             }
             
         }
-        swap(arr[minIndex], arr[i]);
-    }
-}
+        swap(arr[minIndex], arr[i]);                 //TC- O(n^2)  ----best case-> already sorted ->O(n^2)
+    }                                                             // worst case-> O(n^2)
+}                                                    //SC - O(1)
 
 int main()
 {

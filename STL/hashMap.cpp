@@ -16,11 +16,11 @@ int main()
 
     // for (auto it : m)
     // {
-    //     cout << it.first << "->" << it.second<<endl;    //fetch krne ka ek aur tarika 
+    //     cout << it.first << "->" << it.second << endl;    //fetch krne ka ek aur tarika 
     // }
 
     int q;
-    cout<<"Enter the queries:";
+    cout<<"Enter the queries: ";
     cin>>q;       //kitne numbers ki counting user ko chaiye wo puche hai
     while (q--)
     {

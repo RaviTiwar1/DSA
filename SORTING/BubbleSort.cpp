@@ -12,6 +12,10 @@ void bubbleSort(int arr[], int n)
     }
 }
 
+ // TC-- O(n^2)  ---- best case -> O(n)--- already sorted
+  //                   worst case -> reverse sorted ho
+ // SC-  O(1)
+
 int main()
 {
 
