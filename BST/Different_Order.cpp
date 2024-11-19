@@ -77,15 +77,7 @@ void levelOrderTraversal(node *root)
 }
 
 
-void inorder(node* root){
-    if(root==NULL){
-        return;
-    }
 
-    inorder(root->left);     //Left
-    cout<<root->data<<" ";   //Node
-    inorder(root->right);    //Right
-}
 
 void preorder(node* root){
     if(root==NULL){
@@ -97,6 +89,16 @@ void preorder(node* root){
     preorder(root->right);      //Right
 
     
+}
+
+void inorder(node* root){
+    if(root==NULL){
+        return;
+    }
+
+    inorder(root->left);     //Left
+    cout<<root->data<<" ";   //Node
+    inorder(root->right);    //Right
 }
 
 void postorder(node* root){

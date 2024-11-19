@@ -19,6 +19,7 @@ void insertionSort(int arr[], int n)
                 break;
             }
         }
+        cout<<j<<endl;
         arr[j+1] = temp;  
     }
 }                                                 //TC - O(n^2) ---- best- O(n),  worst - O(n^2)
