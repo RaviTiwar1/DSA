@@ -6,7 +6,7 @@ int main()
     v.push_back(1);
     v.push_back(2);
     v.push_back(3);
-   // v.push_back(4);
+    v.push_back(4);
     v.push_back(5);
 
     int n = v.size();
@@ -22,16 +22,19 @@ int main()
     //     cout << maxi.top() << " ";
     //     maxi.pop();
     // }
+    // cout << endl;
+        
 
      priority_queue<int, vector<int>, greater<int>> mini;
 
-      int i = 0, j = 1;
-        for (; i < j, j < v.size(); i++, j++) {
+      
+        for (int i = 0, j = 1; j < v.size(); i++, j++) {
             mini.push(v[i]/v[j]);
            
         }
+        int a = mini.size();
 
-     for(int n=0;n<6;n++){
+     for(int n=0;n<a;n++){
         cout<<mini.top()<<" ";
         mini.pop();
     }cout<<endl;
@@ -40,3 +43,5 @@ int main()
     cout << endl;
     return 0;
 }
+// Time Complexity: O(nlogn)
+// Space Complexity: O(n)  

@@ -29,7 +29,8 @@ int main()
     cout<<"B: ";
     cin>>b;
 
-    cout<<"GCD of the numbers is: "<<gcd(a,b);
+    //cout<<"GCD of the numbers is: "<<gcd(a,b);
+    cout<<"GCD of the numbers is: "<<__gcd(a,b);        // STL function for GCD
 
 
 

@@ -43,3 +43,6 @@ int main()
     rotate(v, target);
     return 0;
 }
+
+// Time Complexity: O(n)
+// Space Complexity: O(n)   // for temp array

@@ -66,10 +66,11 @@ int main()
         calculate(n);
     }
     else
-        (
-            cout << "Enter a positive amount!";)
+        {
+            cout << "Enter a positive amount!";
 
             return 0;
+        }
 }
 
 // #include <iostream>

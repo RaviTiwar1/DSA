@@ -13,14 +13,22 @@ bool isPresent(int arr[][3], int val, int n, int m){
 }
 
 void rowSum(int arr[][3], int n, int m){
-    
-      for(int i=0;i<n;i++){
-        int sum =0;
+    for(int i=0;i<n;i++){
+        int sum = 0;
         for(int j=0;j<m;j++){
-            sum+=arr[i][j];
-          
+            sum += arr[i][j];
         }
         cout<<"The "<<i<<"th Row sum is: "<<sum<<endl;
+    }
+}
+
+void columnSum(int arr[][3], int n, int m){
+    for(int j=0;j<m;j++){
+        int sum = 0;
+        for(int i=0;i<n;i++){
+            sum += arr[i][j];
+        }
+        cout<<"The "<<j<<"th Column sum is: "<<sum<<endl;
     }
 }
 
